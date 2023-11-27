@@ -9,10 +9,15 @@ o programa é um executavel no formato 'c', para utilizar-lo e so clicar nele pa
 
 ## 3: executando:
 após iniciar o prograva voce vai dar de cara com um menu para poder acessar as funcoes que o nosso sistema proporciona.
+
 as opcoes sao:
+
 Reservar quarto
 Realizar Check-in
 Realizar Check-Out
 Visualizar Reservas
 Sair do Programa
+
 sinta se a vontade se escolher qualquer uma mas indicamos comecar pela: Reservar quarto.
+
+E com isso você pode colocar as informações que são pedidas para poder continuar...
