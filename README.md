@@ -1,6 +1,7 @@
 # Projeto Final - Sistema de Reservas de Hotel
 
 Este é o projeto final da disciplina de Linguagens de Programação, ministrada pelo professor Maromo.
+Neste Projeto foi desenvolvido um programa para cuidar de reservas de um hotel.
 
 ## Instalação:
 
