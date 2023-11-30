@@ -1,25 +1,25 @@
 # Projeto Final - Sistema de Reservas de Hotel
 
-Este e o projeto final da materia de linguagens de programacao com professor maromo
+Este é o projeto final da disciplina de Linguagens de Programação, ministrada pelo professor Maromo.
 
 ## Instalação:
 
-O Programa e na linguagem c de programacao, nao e nescessario instalar mais nada, alem que apos compilar o programa e criado um executavel.
+O programa é desenvolvido em linguagem C de programação. Não é necessário instalar mais nada, exceto que, após compilar o programa, um executável é criado.
 
 ## --Inicio do programa--
 
 ## Fazer Rezerva:
-Primeira opcao a aparrecer do menu, nela voce vai poder fazer sua rezerva apos digitar qual o quarto, seu nome e a quatidade de dias.
+Primeira opção a aparecer no menu, nela você poderá fazer sua reserva após digitar o número do quarto, seu nome e a quantidade de dias.
 
 
 ## Check-In
-So e possivel fazer check in em quartos rezervados, apos a rezerva pode ser feito o check in do quarto, apos isso o quarto estara ocupado com a pessoa ate o check-out.
+Só é possível realizar o check-in em quartos reservados. Após a reserva, é possível fazer o check-in do quarto. Após isso, o quarto estará ocupado com a pessoa até o check-out.
 
 ## Check-Out
-So e posssivel realizar check-out apos fazer algum check in, apos fazer o check-in, podera ser feito o check-out, isso vai remover a pessoa do quarto e vai deixar ele livre para ser reservado novamente.
+Só é possível realizar o check-out após realizar algum check-in. Após fazer o check-in, poderá ser feito o check-out, removendo a pessoa do quarto e deixando-o livre para ser reservado novamente.
 
 ## Visualizar Quartos
-Te da uma lista dos quartos disponiveis primeiramente, apos mostrar todos disponiveis, os ocupados sao mostrados com o nome da pessoa, e quantidade de dias que vao ultilizar o quarto
+Fornece uma lista dos quartos disponíveis inicialmente. Após mostrar todos disponíveis, os ocupados são apresentados com o nome da pessoa e a quantidade de dias que irão utilizar o quarto.
 
 ## Sair
-Use esta opcao quando quiser encerar suas acoes dentro do nosso programa.
+Use esta opção quando quiser encerrar suas ações dentro do nosso programa.
