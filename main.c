@@ -10,6 +10,7 @@ typedef struct {
     int reservado;
     int checkin;
     char nomeHospede[MAX_NOME_HOSPEDE];
+    int diasReservados;
 } Quarto;
 
 void inicializarHotel(Quarto* hotel, int numQuartos) {
@@ -18,6 +19,7 @@ void inicializarHotel(Quarto* hotel, int numQuartos) {
         hotel[i].reservado = 0;
         hotel[i].checkin = 0;
         strcpy(hotel[i].nomeHospede, "");
+        hotel[i].diasReservados = 0;
     }
 }
 
@@ -25,7 +27,7 @@ void visualizarQuartos(Quarto* hotel, int numQuartos) {
     printf("\nQuartos disponíveis:\n");
     for (int i = 0; i < numQuartos; ++i) {
         if (!hotel[i].reservado) {
-            printf("Quarto %d: Disponível\n", hotel[i].numero);
+            printf("Quarto %d: Disponivel\n", hotel[i].numero);
         }
     }
 
@@ -34,33 +36,34 @@ void visualizarQuartos(Quarto* hotel, int numQuartos) {
         if (hotel[i].reservado) {
             printf("Quarto %d: ", hotel[i].numero);
             if (hotel[i].checkin) {
-                printf("Ocupado pelo(a) %s\n", hotel[i].nomeHospede);
+                printf("Ocupado pelo(a) %s, reserva para %d dias\n", hotel[i].nomeHospede, hotel[i].diasReservados);
             } else {
-                printf("Reservado para %s, aguardando check-in\n", hotel[i].nomeHospede);
+                printf("Reservado para %s, aguardando check-in, reserva para %d dias\n", hotel[i].nomeHospede, hotel[i].diasReservados);
             }
         }
     }
     printf("\n");
 }
 
-void reservarQuarto(Quarto* hotel, int numQuartos, int numeroQuarto, const char* nomeHospede) {
+void reservarQuarto(Quarto* hotel, int numQuartos, int numeroQuarto, const char* nomeHospede, int diasReservados) {
     if (numeroQuarto < 1 || numeroQuarto > numQuartos) {
-        printf("Número de quarto inválido.\n");
+        printf("Numero de quarto invalido.\n");
         return;
     }
 
     if (hotel[numeroQuarto - 1].reservado) {
-        printf("Quarto já reservado.\n");
+        printf("Quarto ja reservado.\n");
     } else {
         hotel[numeroQuarto - 1].reservado = 1;
         strcpy(hotel[numeroQuarto - 1].nomeHospede, nomeHospede);
-        printf("Quarto %d reservado com sucesso para %s.\n", numeroQuarto, nomeHospede);
+        hotel[numeroQuarto - 1].diasReservados = diasReservados;
+        printf("Quarto %d reservado com sucesso para %s por %d dias.\n", numeroQuarto, nomeHospede, diasReservados);
     }
 }
 
 void realizarCheckin(Quarto* hotel, int numQuartos, int numeroQuarto) {
     if (numeroQuarto < 1 || numeroQuarto > numQuartos) {
-        printf("Número de quarto inválido.\n");
+        printf("Numero de quarto inválido.\n");
         return;
     }
 
@@ -72,24 +75,25 @@ void realizarCheckin(Quarto* hotel, int numQuartos, int numeroQuarto) {
             printf("Check-in já foi realizado para o Quarto %d.\n", numeroQuarto);
         }
     } else {
-        printf("Quarto não está reservado.\n");
+        printf("Quarto nao esta reservado.\n");
     }
 }
 
 void realizarCheckout(Quarto* hotel, int numQuartos, int numeroQuarto) {
     if (numeroQuarto < 1 || numeroQuarto > numQuartos) {
-        printf("Número de quarto inválido.\n");
+        printf("Numero de quarto invalido.\n");
         return;
     }
 
     if (hotel[numeroQuarto - 1].reservado) {
         if (hotel[numeroQuarto - 1].checkin) {
+            printf("Check-out realizado com sucesso para o Quarto %d ocupado por %s por %d dias.\n", numeroQuarto, hotel[numeroQuarto - 1].nomeHospede, hotel[numeroQuarto - 1].diasReservados);
             hotel[numeroQuarto - 1].reservado = 0;
             hotel[numeroQuarto - 1].checkin = 0;
             strcpy(hotel[numeroQuarto - 1].nomeHospede, "");
-            printf("Check-out realizado com sucesso para o Quarto %d.\n", numeroQuarto);
+            hotel[numeroQuarto - 1].diasReservados = 0;
         } else {
-            printf("Check-in não foi realizado para o Quarto %d.\n", numeroQuarto);
+            printf("Check-in nao foi realizado para o Quarto %d.\n", numeroQuarto);
         }
     } else {
         printf("Quarto não está reservado.\n");
@@ -100,7 +104,7 @@ int main() {
     Quarto hotel[MAX_QUARTOS];
     inicializarHotel(hotel, MAX_QUARTOS);
 
-    int opcao, numeroQuarto;
+    int opcao, numeroQuarto, diasReservados;
     char nomeHospede[MAX_NOME_HOSPEDE];
 
     do {
@@ -110,7 +114,7 @@ int main() {
         printf("3. Realizar Check-in\n");
         printf("4. Realizar Check-out\n");
         printf("0. Sair\n");
-        printf("Escolha uma opção: ");
+        printf("Escolha uma opcao: ");
         scanf("%d", &opcao);
 
         switch (opcao) {
@@ -122,7 +126,9 @@ int main() {
                 scanf("%d", &numeroQuarto);
                 printf("Digite o nome do hóspede: ");
                 scanf("%s", nomeHospede);
-                reservarQuarto(hotel, MAX_QUARTOS, numeroQuarto, nomeHospede);
+                printf("Digite a quantidade de dias da reserva: ");
+                scanf("%d", &diasReservados);
+                reservarQuarto(hotel, MAX_QUARTOS, numeroQuarto, nomeHospede, diasReservados);
                 break;
             case 3:
                 printf("Digite o número do quarto para realizar o check-in: ");
