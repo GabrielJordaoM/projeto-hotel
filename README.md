@@ -1,11 +1,15 @@
 # Projeto Final - Sistema de Reservas de Hotel
+Projeto final de Linguagem de Programação do curso de Análise e Desenvolvimento de sistemas (ADS) - 2º Semestre - Noite. O projeto denominado _Swiftinn_ é um sistema de manejamento de reservas de hotel. 
 
-Este é o projeto final da disciplina de Linguagens de Programação, ministrada pelo professor Maromo.
-Neste Projeto foi desenvolvido um programa para cuidar de reservas de um hotel.
+O sistema permite que o usuário visualize os quartos disponiveis, reserve quartos e realize check-in e check-out de suas reservas. 
 
-## Instalação:
+## Por que usar C:
 
-O programa é desenvolvido em linguagem C de programação. Não é necessário instalar mais nada, exceto que, após compilar o programa, um executável é criado.
+A linguagem de programação C é escolhida por diversos motivos, sua eficiência e desempenho notáveis a tornam ideal para o desenvolvimento de software rápido e de baixo nível. A sintaxe simples facilita a aprendizagem, enquanto sua portabilidade permite a execução em diferentes sistemas. A linguagem C é amplamente utilizada em sistemas embarcados devido à sua proximidade com o hardware além de sua flexibilidade, proporcionando controle direto sobre a memória que a torna valiosa para programadores que buscam equilíbrio entre abstração e controle. _Em resumo, C é uma escolha versátil, combinando eficiência, simplicidade e flexibilidade._
+
+## -- Instalação de IDE --
+Todo codigo programado a seguir foi feito e utilizado via IDE multiplataforma da JetBrains : **CLion**
+
 
 ## --Inicio do programa--
 
