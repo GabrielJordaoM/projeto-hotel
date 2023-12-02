@@ -1,3 +1,7 @@
+![logohotel](https://github.com/GabrielJordaoM/projeto-hotel/assets/69699073/4c2704f2-4163-4ef5-be51-d587137d24b5)
+
+# Hotel Maresia - Projeto final 
+
 ## Status do projeto 
   ### ✔️ Projeto pronto para entrega [02/12/23]
   ### ❗  Troubleshooting de integração de sistemas [01/12/23]
@@ -9,6 +13,8 @@ A linguagem de programação C é escolhida por diversos motivos, sua eficiênci
 ## Instalação para utilizar o executavel 
 O projeto necessita de um compilador MinGW para execução correta, o link abaixo mostra passo a passo a instalação
   >https://www.youtube.com/watch?v=sXW2VLrQ3Bs
+
+![checkinn](https://github.com/GabrielJordaoM/projeto-hotel/assets/69699073/c288e1bc-5d52-47cc-ad85-23c4458d3154)
 
 # Check-Inn - Sistema de Reservas de Hotel
 Projeto final de Linguagem de Programação do curso de Análise e Desenvolvimento de sistemas (ADS) - 2º Semestre - Noite. O projeto denominado _Swiftinn_ é um sistema de manejamento de reservas de hotel. 
