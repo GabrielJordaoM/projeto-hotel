@@ -3,12 +3,13 @@ Projeto final de Linguagem de Programação do curso de Análise e Desenvolvimen
 
 O sistema permite que o usuário visualize os quartos disponiveis, reserve quartos e realize check-in e check-out de suas reservas. 
 
-## Por que usar C:
+## Por que usar C :
 
 A linguagem de programação C é escolhida por diversos motivos, sua eficiência e desempenho notáveis a tornam ideal para o desenvolvimento de software rápido e de baixo nível. A sintaxe simples facilita a aprendizagem, enquanto sua portabilidade permite a execução em diferentes sistemas. A linguagem C é amplamente utilizada em sistemas embarcados devido à sua proximidade com o hardware além de sua flexibilidade, proporcionando controle direto sobre a memória que a torna valiosa para programadores que buscam equilíbrio entre abstração e controle. _Em resumo, C é uma escolha versátil, combinando eficiência, simplicidade e flexibilidade._
 
 ## -- Instalação de IDE --
 Todo codigo programado a seguir foi feito e utilizado via IDE multiplataforma da JetBrains : **CLion**
+[Flex Grid]https://www.jetbrains.com/pt-br/clion/download/#section=windows
 
 
 ## --Inicio do programa--
