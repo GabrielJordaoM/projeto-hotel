@@ -16,12 +16,14 @@ Todo codigo programado a seguir foi feito e utilizado via IDE multiplataforma da
 **Tutorial de download** 
   >https://ics.uci.edu/~pattis/common/handouts/cygwinclion/clion.html
 
-
-
+## Status do projeto 
+  ### ✔️ Projeto pronto para entrega [02/12/23]
+  ### ❗  Troubleshooting de integração de sistemas [01/12/23]
 
 # --Inicio do programa--
 
-## Fazer Rezerva:
+## 🔨 Funcionalidades 
+### 1 - Visualizar Quartos:
 Primeira opção a aparecer no menu, nela você poderá fazer sua reserva após digitar o número do quarto, seu nome e a quantidade de dias.
 
 
