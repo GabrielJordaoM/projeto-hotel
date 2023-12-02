@@ -1,6 +1,12 @@
 ![logohotel](https://github.com/GabrielJordaoM/projeto-hotel/assets/69699073/4c2704f2-4163-4ef5-be51-d587137d24b5)
 
 # Hotel Maresia - Projeto final 
+Experimente o luxo à beira-mar no Hotel Maresia. Quartos elegantes com vistas deslumbrantes, restaurante à beira-mar "Sabor do Mar" e piscina infinita. Explore a natureza local com nosso guia personalizado ou relaxe no spa Maresia. Uma experiência única de tranquilidade e sofisticação. _Bem-vindo ao seu refúgio à beira-mar._
+
+##O projeto
+O projeto final de Linguagem de Programação do curso de Análise e Desenvolvimento de sistemas (ADS) - 2º Semestre - Noite se consiste na criação de dois diferentes sistemas para manejamento de partes do hotel ficticio chamado "hotel Maresia". Onde foram criados o sistema de manejamento de estoque de produtos do hotel e o sistema de reservas de quartos do hotel. 
+
+##Indice
 
 ## Status do projeto 
   ### ✔️ Projeto pronto para entrega [02/12/23]
@@ -17,7 +23,7 @@ O projeto necessita de um compilador MinGW para execução correta, o link abaix
 ![checkinn](https://github.com/GabrielJordaoM/projeto-hotel/assets/69699073/c288e1bc-5d52-47cc-ad85-23c4458d3154)
 
 # Check-Inn - Sistema de Reservas de Hotel
-Projeto final de Linguagem de Programação do curso de Análise e Desenvolvimento de sistemas (ADS) - 2º Semestre - Noite. O projeto denominado _Swiftinn_ é um sistema de manejamento de reservas de hotel. 
+O projeto denominado _Checkinn_ é um sistema de manejamento de reservas de hotel. 
 
 O sistema permite que o usuário visualize os quartos disponiveis, reserve quartos e realize check-in e check-out de suas reservas. 
 
