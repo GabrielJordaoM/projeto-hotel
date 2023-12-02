@@ -16,6 +16,16 @@ Todo codigo programado a seguir foi feito e utilizado via IDE multiplataforma da
 **Tutorial de download** 
   >https://ics.uci.edu/~pattis/common/handouts/cygwinclion/clion.html
 
+## -- Instalação de IDE --
+Todo codigo programado a seguir foi feito e utilizado via IDE multiplataforma da JetBrains : 
+
+**CLion** 
+  >https://www.jetbrains.com/pt-br/clion/download/#section=windows - Link direto
+
+**Tutorial de download** 
+  >https://ics.uci.edu/~pattis/common/handouts/cygwinclion/clion.html
+
+
 ## Status do projeto 
   ### ✔️ Projeto pronto para entrega [02/12/23]
   ### ❗  Troubleshooting de integração de sistemas [01/12/23]
@@ -23,18 +33,38 @@ Todo codigo programado a seguir foi feito e utilizado via IDE multiplataforma da
 # --Inicio do programa--
 
 ## 🔨 Funcionalidades 
-### 1 - Visualizar Quartos:
+### 1 - Visualizar Quartos :
 Primeira opção a aparecer no menu, nela você poderá fazer sua reserva após digitar o número do quarto, seu nome e a quantidade de dias.
+  >Visualização (print)
 
+### 2 - Reservar Quarto :
+Segunda opção a aparecer no menu, faz a reserva de um quarto ainda não ocupado. 
+  >Escolha um quarto vago
+  >>Digite o nome
+  >>>Digite a quantidade de dias
+  >>>>Mensagem de confirmação de reserva
 
-## Check-In
-Só é possível realizar o check-in em quartos reservados. Após a reserva, é possível fazer o check-in do quarto. Após isso, o quarto estará ocupado com a pessoa até o check-out.
+Mensagens de erro de cadastro 
+  >Quarto fora dos parametros
+  >>Nome invalido
+  >>>Dias invalidos
 
-## Check-Out
-Só é possível realizar o check-out após realizar algum check-in. Após fazer o check-in, poderá ser feito o check-out, removendo a pessoa do quarto e deixando-o livre para ser reservado novamente.
+### 3 - Realizar check-in :
+Terceira opção a aparecer no menu, cria um check-in de um quarto já reservado. 
+  >Digite o numero do quarto
+  >>Mensagem de confirmação de reserva
 
-## Visualizar Quartos
-Fornece uma lista dos quartos disponíveis inicialmente. Após mostrar todos disponíveis, os ocupados são apresentados com o nome da pessoa e a quantidade de dias que irão utilizar o quarto.
+Mensagens de erro de check-in
+  >Quarto não reservado 
 
-## Sair
-Use esta opção quando quiser encerrar suas ações dentro do nosso programa.
+### 4 - Realizar check-out :
+Quarta opção a aparecer no menu, faz o check-out do quarto utilizado e o libera na visualização de quartos. 
+  >Digite o numero do quarto
+  >>Mensagem de confirmação de check-out
+
+Mensagens de erro de check-in
+  >Não da para dar check-out em um quarto que não tenha check-in
+  >Não da para dar check-out em um quarto não reservado
+
+### 5 - Sair
+A ultima opção do menu, use esta opção quando quiser encerrar suas ações dentro do programa.
