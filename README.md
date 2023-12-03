@@ -21,6 +21,19 @@ A linguagem de programação C é escolhida por diversos motivos, sua eficiênci
 O projeto necessita de um compilador MinGW para execução correta, o link abaixo mostra passo a passo a instalação
   >https://www.youtube.com/watch?v=sXW2VLrQ3Bs
 
+## Passo a passo para a execução do programa.
+
+[1.] Após a intalação do compilador de C citado na etapa anterior, fazer o download da pasta PROJETO_HOTEL - importante que a pasta seja baixada no (C:) e que o nome da pasta não seja alterada para que o sistema seja executado de forma correta.
+
+[2.] Dentro da pasta PROJETO_HOTEL vocÊ irá encontrar o arquivo executável com nome de Hotel_Maresia.exe, ele abrirá direto no Prompt de Comando e vocÊ poderá utilizar os sistemas direto desse arquivo.
+
+[3.] Para encerrar o programa basta seguir os botões de saída dentro do próprio programa.
+
+## Menu principal do sistema de Hotel Maresia
+  >O menu padrão para os funcionários do hotel, dele é possivel acessar qualquer um dos sistemas subsequentes
+
+  ![WhatsApp Image 2023-12-02 at 20 56 47](https://github.com/GabrielJordaoM/projeto-hotel/assets/69699073/e6f358b3-3df5-4e84-a97b-35d7901cc6fa)
+
 ![checkinn](https://github.com/GabrielJordaoM/projeto-hotel/assets/69699073/d3690eb7-cabd-43d8-86b4-32e35de269bd)
 
 # Check-Inn - Sistema de Reservas de Hotel
@@ -78,44 +91,59 @@ O sistema permite que o usuário cadastre um novo produto e seus detalhes, impri
 ## 🔨 Funcionalidades 
 ### 1 - Cadastrar novo produto :
 Primeira opção a aparecer no menu, nela você poderá ver se o codigo do produto já existe e cadastrar novos produtos.
-  >Cadastrar nome do produto
-  >>Digitar a descrição do produto
-  >>>Digitar preço do produto
-  >>>>Digitar a quantidade dos produtos
+  >Cadastro de produtos
+  
+  ![WhatsApp Image 2023-12-02 at 20 55 38 (4)](https://github.com/GabrielJordaoM/projeto-hotel/assets/69699073/ba6c279d-3547-4e73-bfcf-92c2809fade5)
 
 Mensagem de erro
-  >Caso o código do produto não exista
+  >Caso o código do produto já exista 
+
+  ![WhatsApp Image 2023-12-02 at 20 55 38](https://github.com/GabrielJordaoM/projeto-hotel/assets/69699073/259eaed2-f20e-4f5a-8f1c-5c1c59d959a3)
+
 
 ### 2 - Imprimir detalhes de um produto :
 Segunda opção a aparecer no menu, mostra os detalhes do produto escolhido 
   >Digite o código do produto
-  >>Visualização 
+  
+  ![WhatsApp Image 2023-12-02 at 20 55 39](https://github.com/GabrielJordaoM/projeto-hotel/assets/69699073/c9dd7f6d-e661-4e01-8271-20256f6e0741)
 
 Mensagens de erro de cadastro 
   >Codigo não-existente
+
+  ![WhatsApp Image 2023-12-02 at 20 55 38 (2)](https://github.com/GabrielJordaoM/projeto-hotel/assets/69699073/96122671-ff51-43e2-9317-18ca9e2013d4)
 
 ### 3 - Imprimir detalhes de todos os itens :
 Terceira opção a aparecer no menu, mostra detalhes de todos os itens cadastrados no estoque.
   >Visualização 
 
+  ![WhatsApp Image 2023-12-02 at 20 55 37 (1)](https://github.com/GabrielJordaoM/projeto-hotel/assets/69699073/0d24f55c-e66b-48df-8287-b1d7c265cada)
+
 
 ### 4 - Adicionar quantidade de produto :
 Quarta opção a aparecer no menu, adiciona mais quantidade de produtos aos ja cadastrados. 
-  >Digite o codigo do produto 
-  >>Digite a quantidade de produtos que deseja adicionar
-  >>>Mensagem de quantidade atualizada
+  >Digite o codigo do produto
+
+  ![WhatsApp Image 2023-12-02 at 20 55 38 (1)](https://github.com/GabrielJordaoM/projeto-hotel/assets/69699073/a4565e38-e2f6-456a-a97f-33b1818bb4bd)
 
 Mensagens de erro de check-in
   >Código de produto não encontrado
+
+  ![WhatsApp Image 2023-12-02 at 20 55 38 (2)](https://github.com/GabrielJordaoM/projeto-hotel/assets/69699073/818be0b2-6b00-4ad5-93c6-aa0879edd221)
+
+
 
 ### 5 - Remover quantidade de produto :
 Quinta opção a aparecer no menu, remove a quantidade de produtos dos ja cadastrados. 
   >Digite o codigo do produto 
-  >>Digite a quantidade de produtos que deseja remover
-  >>>Mensagem de quantidade atualizada
+
+  ![WhatsApp Image 2023-12-02 at 20 55 39 (1)](https://github.com/GabrielJordaoM/projeto-hotel/assets/69699073/233efcbb-f881-48cc-b451-cdf775714fc6)
+
 
 Mensagens de erro de check-in
   >Código de produto não encontrado
+
+  ![WhatsApp Image 2023-12-02 at 20 55 38 (2)](https://github.com/GabrielJordaoM/projeto-hotel/assets/69699073/818be0b2-6b00-4ad5-93c6-aa0879edd221)
+
 
 ### 6 - Sair
 A ultima opção do menu, use esta opção quando quiser encerrar suas ações dentro do programa.
