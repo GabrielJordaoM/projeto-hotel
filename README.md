@@ -46,39 +46,80 @@ O sistema permite que o usuário visualize os quartos disponiveis, reserve quart
 ## 🔨 Funcionalidades 
 ### 1 - Visualizar Quartos :
 Primeira opção a aparecer no menu, nela você poderá fazer sua reserva após digitar o número do quarto, seu nome e a quantidade de dias.
-  >Visualização (print)
+  >Quartos disponiveis
 
+  ![opção 1 com todos os quartos disponiveis](https://github.com/GabrielJordaoM/projeto-hotel/assets/69699073/8ed806d1-e84f-44f1-9bce-350146797a9c)
+
+  >Quartos disponiveis e ocupados com check-in já feito
+
+  ![opcao 1 quando o quarto esta ocupado e com check in feito](https://github.com/GabrielJordaoM/projeto-hotel/assets/69699073/b6380583-424f-4690-82d9-3147943359e5)
+
+  >Quartos disponiveis e reservados
+
+  ![opcao 1 quando o quarto esta reservado ](https://github.com/GabrielJordaoM/projeto-hotel/assets/69699073/01687fb8-ae1b-405c-b080-55afaf7d3d2c)
+
+  
 ### 2 - Reservar Quarto :
 Segunda opção a aparecer no menu, faz a reserva de um quarto ainda não ocupado. 
-  >Escolha um quarto vago
-  >>Digite o nome
-  >>>Digite a quantidade de dias
-  >>>>Mensagem de confirmação de reserva
+  >Digite as informações necessárias
+
+  ![opcao 2 com infos preenchidas](https://github.com/GabrielJordaoM/projeto-hotel/assets/69699073/c1ffb548-880c-4736-980f-0e37be277cf7)
 
 Mensagens de erro de cadastro 
-  >Quarto fora dos parametros
-  >>Nome invalido
-  >>>Dias invalidos
+  >Numero de quarto inválido
+
+  ![opção 2 com numero de quarto inválido (ERRO)](https://github.com/GabrielJordaoM/projeto-hotel/assets/69699073/5b796e42-61b5-4ad1-8d88-d7706fb0d586)
+
+  >Quarto já reservado
+
+  ![opcao 2 quando seleciona quarto ja existente (ERRO)](https://github.com/GabrielJordaoM/projeto-hotel/assets/69699073/8e96b623-10d2-409b-a073-4be3d55dfeb9)
 
 ### 3 - Realizar check-in :
 Terceira opção a aparecer no menu, cria um check-in de um quarto já reservado. 
-  >Digite o numero do quarto
-  >>Mensagem de confirmação de reserva
+  >Check-in realizado com sucesso
+
+  ![opcao 3 check in realizado com sucesso](https://github.com/GabrielJordaoM/projeto-hotel/assets/69699073/a577a9f4-ebdf-4ece-a3c5-fe1dc24c55be)
 
 Mensagens de erro de check-in
   >Quarto não reservado 
 
+  ![opcao 3 check in quando nao ha reserva para o quarto selecionado (ERRO)](https://github.com/GabrielJordaoM/projeto-hotel/assets/69699073/d0658f91-390f-4901-88a9-7347014ddbfe)
+
+  >Check-in já realizado
+  
+  ![opcao 3 quando ja foi feito check in (ERRO)](https://github.com/GabrielJordaoM/projeto-hotel/assets/69699073/fcc8795e-5ab0-4a5c-87c7-f8b4cc3638f6)
+
+  >Quarto inválido
+
+  ![opcao 3 quando o numero de quarto para check in é invalido (ERRO)](https://github.com/GabrielJordaoM/projeto-hotel/assets/69699073/4de50848-2535-4f17-843a-87599781a8d4)
+
+
 ### 4 - Realizar check-out :
 Quarta opção a aparecer no menu, faz o check-out do quarto utilizado e o libera na visualização de quartos. 
-  >Digite o numero do quarto
-  >>Mensagem de confirmação de check-out
+  >Check-out realizado com sucesso
+
+  
+![opcao 4 quando o check out é feito com sucesso](https://github.com/GabrielJordaoM/projeto-hotel/assets/69699073/d4b9b7d4-a2d9-4930-a546-a2c672ce24aa)
 
 Mensagens de erro de check-in
-  >Não da para dar check-out em um quarto que não tenha check-in
-  >Não da para dar check-out em um quarto não reservado
+  >Não há check-in feito para check-out
+
+  ![opcao 4 quando o check in nao foi realizado antes do check out (ERRO)](https://github.com/GabrielJordaoM/projeto-hotel/assets/69699073/aee1d196-33eb-4914-a6a3-b612871e9a26)
+
+  >Quarto não reservado, check-out bloqueado
+
+  ![opcao 4 quando o quarto nao esta reservado (ERRO)](https://github.com/GabrielJordaoM/projeto-hotel/assets/69699073/f8333883-5bf4-490f-bbf8-965f11b68d75)
+
+  >Quarto inválido
+
+  ![opcao 4 quando o numero de quartos é invalido (ERRO)](https://github.com/GabrielJordaoM/projeto-hotel/assets/69699073/0b948def-f179-4a8e-9710-3da302454f64)
+
 
 ### 0 - Sair
 A ultima opção do menu, use esta opção quando quiser encerrar suas ações dentro do programa.
+
+![opcao 0 para sair do sistema de reservas](https://github.com/GabrielJordaoM/projeto-hotel/assets/69699073/244e3251-2788-4bf9-b171-12a0a74fe598)
+
 
 ![Untitled-2](https://github.com/GabrielJordaoM/projeto-hotel/assets/69699073/66db2eb7-8ec2-4d14-a854-6dec3bbbe17a)
 # Supply Savvy - Sistema de Estoque de Hotel
