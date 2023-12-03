@@ -6,7 +6,8 @@ Experimente o luxo à beira-mar no Hotel Maresia. Quartos elegantes com vistas d
 ## O projeto
 O projeto final de Linguagem de Programação do curso de Análise e Desenvolvimento de sistemas (ADS) - 2º Semestre - Noite se consiste na criação de dois diferentes sistemas para manejamento de partes do hotel ficticio chamado "hotel Maresia". Onde foram criados o sistema de manejamento de estoque de produtos do hotel e o sistema de reservas de quartos do hotel. 
 
-
+## Apresentação em video do projeto
+  https://youtu.be/w71Et_whmek
 ## Status do projeto 
   ### ✔️ Projeto pronto para entrega [02/12/23]
   ### ❗  **NÃO MUDAR O NOME DO ARQUIVO** [02/12/23]
