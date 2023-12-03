@@ -6,7 +6,6 @@ Experimente o luxo à beira-mar no Hotel Maresia. Quartos elegantes com vistas d
 ## O projeto
 O projeto final de Linguagem de Programação do curso de Análise e Desenvolvimento de sistemas (ADS) - 2º Semestre - Noite se consiste na criação de dois diferentes sistemas para manejamento de partes do hotel ficticio chamado "hotel Maresia". Onde foram criados o sistema de manejamento de estoque de produtos do hotel e o sistema de reservas de quartos do hotel. 
 
-## Indice
 
 ## Status do projeto 
   ### ✔️ Projeto pronto para entrega [02/12/23]
@@ -25,7 +24,7 @@ O projeto necessita de um compilador MinGW para execução correta, o link abaix
 
 [1.] Após a intalação do compilador de C citado na etapa anterior, fazer o download da pasta PROJETO_HOTEL - importante que a pasta seja baixada no (C:) e que o nome da pasta não seja alterada para que o sistema seja executado de forma correta.
 
-[2.] Dentro da pasta PROJETO_HOTEL vocÊ irá encontrar o arquivo executável com nome de Hotel_Maresia.exe, ele abrirá direto no Prompt de Comando e vocÊ poderá utilizar os sistemas direto desse arquivo.
+[2.] Dentro da pasta PROJETO_HOTEL você irá encontrar o arquivo executável com nome de Hotel_Maresia.exe, ele abrirá direto no Prompt de Comando e vocÊ poderá utilizar os sistemas direto desse arquivo.
 
 [3.] Para encerrar o programa basta seguir os botões de saída dentro do próprio programa.
 
